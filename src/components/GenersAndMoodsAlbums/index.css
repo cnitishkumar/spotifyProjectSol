@@ -1,0 +1,21 @@
+.genre-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: large;
+}
+.genre-list-ul-el {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .genre-list-ul-el {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+  }
+}

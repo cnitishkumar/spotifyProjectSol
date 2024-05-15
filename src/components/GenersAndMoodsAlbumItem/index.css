@@ -1,0 +1,26 @@
+.genre-album-image {
+  height: 166px;
+  width: 166px;
+  border-radius: 8px;
+}
+
+.genre-album-list-item {
+  list-style: none;
+  margin: 5px;
+}
+
+.genre-link {
+  text-decoration: none;
+}
+.album-name {
+  color: #ffffff;
+  font-size: medium;
+}
+
+@media screen and (max-width: 576px) {
+  .genre-album-image {
+    height: 82px;
+    width: 82px;
+    range: 4px;
+  }
+}
